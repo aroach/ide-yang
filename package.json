@@ -1,7 +1,7 @@
 {
   "name": "ide-yang",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom IDE plugin for YANG support.",
   "keywords": [
   ],
@@ -9,6 +9,13 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.21.0"
+  },
+  "configSchema": {
+    "yangLangServer": {
+      "type": "string",
+      "default": "$HOME/yang-lsp/yang-lsp/io.typefox.yang.diagram/build/install/yang-language-server/bin",
+      "description": "Absolute path to YANG Language Server"
+    }
   },
   "dependencies": {
     "atom-languageclient": "^0.6.0"
