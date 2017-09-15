@@ -1,10 +1,9 @@
 {
   "name": "ide-yang",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Atom IDE plugin for YANG support.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/aroach/ide-yang",
   "license": "MIT",
   "engines": {
